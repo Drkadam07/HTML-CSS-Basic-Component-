@@ -15,42 +15,18 @@
             <li class="list" data-filter="bike">Bike</li>
         </ul>
         <div class="product">
-            <div class="itemBox" data-item="mobile" <a href="https://ibb.co/BBHGcn6"><img src="https://i.ibb.co/DQPYzrM/iphone-13-pro-cnet-review-2021-119.webp" alt="iphone-13-pro-cnet-review-2021-119" border="0" /></a></div>
-            <div class="itemBox" data-item="car"><a href="https://ibb.co/1qrdHQf"><img src="https://i.ibb.co/9TbVRg9/2022-Hyundai-Sonata-N-Line-Night-Edition-img1.jpg" alt="2022-Hyundai-Sonata-N-Line-Night-Edition-img1" border="0" /></a></div>
-            <div class="itemBox" data-item="bike"><a href="https://imgbb.com/"><img src="https://i.ibb.co/VjBwLKN/download-2.jpg" alt="download-2" border="0" /></a></div>
-            <div class="itemBox" data-item="car"><a href="https://ibb.co/h9PmgcV"><img src="https://i.ibb.co/2hDkFSd/jlr-starts-deliveries-of-bs-vi-petrol-derivatives-of-range-rover-evoque-discovery-sport.webp" alt="jlr-starts-deliveries-of-bs-vi-petrol-derivatives-of-range-rover-evoque-discovery-sport" border="0" /></a></div>
-            <div class="itemBox" data-item="mobile"><a href="https://ibb.co/jZGbH3X"><img src="https://i.ibb.co/bRLQ7N9/samsung-galaxys22-ultra.webp" alt="samsung-galaxys22-ultra" border="0" /></a></div>
-            <div class="itemBox" data-item="car"><a href="https://imgbb.com/"><img src="https://i.ibb.co/1sJNjb2/download-1.jpg" alt="download-1" border="0" /></a></div>
-            <div class="itemBox" data-item="bike"><a href="https://imgbb.com/"><img src="https://i.ibb.co/wSXfxM5/download3.jpg" alt="download3" border="0" /></a></div>
+            <div class="itemBox" data-item="mobile" <a href="#"><img src="https://i.ibb.co/DQPYzrM/iphone-13-pro-cnet-review-2021-119.webp" alt="iphone-13-pro-cnet-review-2021-119" border="0" /></a></div>
+            <div class="itemBox" data-item="car"><a href=""><img src="https://i.ibb.co/9TbVRg9/2022-Hyundai-Sonata-N-Line-Night-Edition-img1.jpg" alt="2022-Hyundai-Sonata-N-Line-Night-Edition-img1" border="0" /></a></div>
+            <div class="itemBox" data-item="bike"><a href="#"><img src="https://i.ibb.co/VjBwLKN/download-2.jpg" alt="download-2" border="0" /></a></div>
+            <div class="itemBox" data-item="car"><a href="#"><img src="https://i.ibb.co/2hDkFSd/jlr-starts-deliveries-of-bs-vi-petrol-derivatives-of-range-rover-evoque-discovery-sport.webp" alt="jlr-starts-deliveries-of-bs-vi-petrol-derivatives-of-range-rover-evoque-discovery-sport" border="0" /></a></div>
+            <div class="itemBox" data-item="mobile"><a href="#"><img src="https://i.ibb.co/bRLQ7N9/samsung-galaxys22-ultra.webp" alt="samsung-galaxys22-ultra" border="0" /></a></div>
+            <div class="itemBox" data-item="car"><a href="#"><img src="https://i.ibb.co/1sJNjb2/download-1.jpg" alt="download-1" border="0" /></a></div>
+            <div class="itemBox" data-item="bike"><a href="#"><img src="https://i.ibb.co/wSXfxM5/download3.jpg" alt="download3" border="0" /></a></div>
             
-            <div class="itemBox" data-item="car"><a href="https://imgbb.com/"><img src="https://i.ibb.co/Yt17k2Z/download.jpg" alt="download" border="0" /></a>"></div>
+            <div class="itemBox" data-item="car"><a href="#"><img src="https://i.ibb.co/Yt17k2Z/download.jpg" alt="download" border="0" /></a>"></div>
 
         </div>
     </section>
-<script>
-let list = document.querySelectorAll('.list');
-let itemBox = document.querySelectorAll('.itemBox');
-
-for(let i = 0; i<list.length; i++){
-    list[i].addEventListener('click', function(){
-        for(let j = 0; j<list.length; j++){
-            list[j].classList.remove('active');
-        }
-        this.classList.add('active');
-
-        let dataFilter = this.getAttribute('data-filter');
-
-        for(let k = 0; k<itemBox.length; k++){
-            itemBox[k].classList.remove('active');
-            itemBox[k].classList.add('hide');
-        
-        if(itemBox[k].getAttribute('data-item') == dataFilter || dataFilter == "all"){
-            itemBox[k].classList.remove('hide');
-            itemBox[k].classList.add('active');
-        }
-    }
-    })
-}
-</script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
