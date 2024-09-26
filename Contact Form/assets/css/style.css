@@ -1,0 +1,139 @@
+/* Reset */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Global Box Sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Wrapper */
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Section Styles */
+.section-gap {
+  padding: 4rem 0;
+}
+
+@media (max-width: 767px) {
+  .section-gap {
+    padding: 3rem 0;
+  }
+}
+
+/* Title Styling */
+h1 {
+  color: #333;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+/* Contact Form Container */
+.contact-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  margin: 0 auto;
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Field Styles */
+.form-control {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  outline: none;
+  transform: scale(1.02);
+}
+
+/* Textarea */
+textarea.form-control {
+  min-height: 150px;
+  resize: none;
+}
+
+/* Button Styling */
+.btn-contact {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #22ff00;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+}
+
+.btn-contact:hover {
+  background-color: #b0b300;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.btn-contact:active {
+  background-color: #003e8058;
+  transform: translateY(1px);
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  .btn-contact {
+    font-size: 14px;
+  }
+}
+
+/* Additional General Styling */
+body {
+  background-color: #f1f3f6;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
