@@ -18,5 +18,4 @@ A simple project that showcases a team member's information using stylish, respo
 - **Font Awesome:** For displaying social media icons.
 
 ## outputs
-![alt text]()
-
+![alt text](./Asets/image.png)
