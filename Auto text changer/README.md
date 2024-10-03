@@ -12,4 +12,6 @@ This can be useful for displaying quotes, testimonials, or rotating announcement
 - Responsive design
 
 ## output
-![demoOutput](./)
+![demoOutput](./Assets/image.png)
+![demoOutput](./Assets/image1.png)
+
