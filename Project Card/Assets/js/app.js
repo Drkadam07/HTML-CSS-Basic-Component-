@@ -1,11 +1,11 @@
 
 const projects = [
-    { title: 'Project 1', type: 'web', image: './1.jpg', github: 'https://github.com/project1', code: 'www.code1.com' },
-    { title: 'Project 2', type: 'app', image: './2.jpg', github: 'https://github.com/project2', code: 'Code 2' },
-    { title: 'Project 3', type: 'web', image: './4.jpg', github: 'https://github.com/project3', code: 'Code 3' },
-    { title: 'Project 1', type: 'web', image: './1.jpg', github: 'https://github.com/project1', code: 'Code 1' },
-    { title: 'Project 2', type: 'app', image: './2.jpg', github: 'https://github.com/project2', code: 'Code 2' },
-    { title: 'Project 3', type: 'web', image: './4.jpg', github: 'https://github.com/project3', code: 'Code 3' },
+    { title: 'Project 1', type: 'web', image: './Assets/img/1.jpg', github: 'https://github.com/project1', code: 'www.code1.com' },
+    { title: 'Project 2', type: 'app', image: './Assets/img/2.jpg', github: 'https://github.com/project2', code: 'Code 2' },
+    { title: 'Project 3', type: 'web', image: './Assets/img/4.jpg', github: 'https://github.com/project3', code: 'Code 3' },
+    { title: 'Project 1', type: 'web', image: './Assets/img/1.jpg', github: 'https://github.com/project1', code: 'Code 1' },
+    { title: 'Project 2', type: 'app', image: './Assets/img/2.jpg', github: 'https://github.com/project2', code: 'Code 2' },
+    { title: 'Project 3', type: 'web', image: './Assets/img/4.jpg', github: 'https://github.com/project3', code: 'Code 3' },
     // Add more projects here...
   ];
 
