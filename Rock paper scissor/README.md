@@ -29,4 +29,4 @@ This is a simple **Rock Paper Scissors** game built using HTML, CSS, and JavaScr
 5. Players can view their overall score, as well as the history of previous games.
 
 ## output
-[Rock paper scissor](./)
+![Project Card Example](./Assets/img/image.png)
