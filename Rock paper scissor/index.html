@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Rock paper scissor :</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <div class="rock-paper-scissor">
+        <p>
+        <h2>Rock paper scissor</h2>
+        </p>
+        <div class="bnt-containe">
+            <button class="move-btn" onclick="playgame('rock')"><img src="./lc06_rock-emoji.png" class="move_icon"></button>
+            <button class="move-btn" onclick="playgame('paper')"><img src="./lc06_paper-emoji.png" class="move_icon"></button>
+            <button class="move-btn" onclick="playgame('scissor') "><img src="./lc06_scissor-emoji.png" class="move_icon"></button>
+
+
+            <div class="msg-container">
+                <h5 id="win-msg" class="win_msg"></h5>
+                <p id="you_compchoice" class="you_computer_msg"></p>
+                <p id="win-loss-tiecount" class="win_msg"></p>
+
+
+                <button class="resetbtn">Reset score</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./Assets/js/script.js"></script>
+</body>
+
+</html>
