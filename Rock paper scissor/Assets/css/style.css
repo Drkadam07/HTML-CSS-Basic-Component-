@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    /* align-items: center; */
+    font-family: Arial, sans-serif;
+    background-color: rgb(27, 27, 27);
+    color: azure;
+}
+h2{
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+}
+
+.rock-paper-scissor {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bnt-containe {
+    /* background-color: antiquewhite; */
+    padding: 20px;
+    /* display: flex; */
+    /* color: black; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.move_icon
+{
+    height: 50px;
+}
+.move-btn{
+    background-color: transparent;
+    border: 4px solid wheat;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+.win_msg
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.you_computer_msg{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.resetbtn{
+    /* background-color: transparent; */
+    margin-top: 40px;
+    width: 40vmin;
+    height: 60px;
+    font-size: 20px;
+    font-family: "Sofia", sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    cursor:pointer;
+
+}
