@@ -16,6 +16,7 @@ This project implements a simple footer that automatically updates the copyright
 
 ```html
 <p>&copy; <span id="year"></span> My Website. All rights reserved.</p>
+```
 
 ### OUTPUT 
 
