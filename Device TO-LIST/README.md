@@ -16,7 +16,9 @@ The **Device Manager - To-Do List** is a web application designed to manage and 
 - **CSS3**: For styling and layout, including a responsive design.
 - **JavaScript**: For DOM manipulation and handling user interactions.
 
-## Getting Started
+## Demo
+![Demo](./Assets%20/image.png)
+
 
 ### Prerequisites
 
